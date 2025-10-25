@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Portfolio from '../components/Portfolio.vue'
 import Navbar from '../components/Navbar.vue'
 
-import Vathana_router from './Vathana_router'
+import Vathana_router from './raksa_router'
 import additionalRoutes from './routes'
 
 const routes = [

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center">
     <div
-      class="bg-white rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
+      class="glass rounded-xl shadow-md p-4 flex justify-center items-center hover:scale-105 transition-transform"
     >
       <Icon :icon="icon" class="w-16 h-16" />
     </div>

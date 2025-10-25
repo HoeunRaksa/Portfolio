@@ -1,47 +1,38 @@
 <template>
-  <div
-    id="about"
-    class="w-full min-h-screen flex justify-center items-center pt-5 md:pt-32"
-  >
-    <div
-      class="grid xl:grid-cols-3 grid-cols-1 w-full h-full place-content-center place-items-center xl:gap-20 gap-3"
-    >
+  <div id="about" class="w-full min-h-screen flex justify-center items-center pt-5 md:pt-32">
+    <div class=" w-full h-full place-content-center place-items-center xl:gap-20 gap-3">
       <!-- Profile Image -->
-      <div
-        class="xl:w-full w-1/2 max-w-[1000px] min-w-[200px] p-1 flex justify-center items-center"
-      >
-        <img
-          src="../assets/image/vathana.png"
-          class="object-cover rounded-xl"
-          alt="Profile"
-        />
-      </div>
+     
 
       <!-- About Me Text -->
-      <div class="col-span-2 w-full max-w-xl px-5 sm:px-10">
+      <div class="col-span-2 w-full sm:px-10">
         <div class="space-y-6">
-          <h1 class="lg:text-5xl text-3xl font-semibold">
-            <span class="text-[#1da1ff]">About Me</span>
+          <h1 class="lg:text-5xl text-blue-500 text-center w-full text-3xl font-semibold">
+            About Me
           </h1>
 
-          <p class="text-lg text-gray-700 leading-relaxed">
-            I’m a <span class="font-semibold">Programmer</span> and a third-year 
-            <span class="font-semibold">Computer Science student</span> with over 6 months of internship experience. 
-            I’ve built full-stack web and desktop applications using 
-            <span class="font-semibold">Vue.js, Laravel, Spring Boot, Django, ASP.NET Core,</span> and 
+          <p class="text-2xl text-gray-700 leading-relaxed">
+            Hi! I’m <span class="font-semibold">Raksa</span>, a
+            <span class="font-semibold">fourth-year Computer Science student</span>
+            at <span class="font-semibold">Royal University of Phnom Penh (RUPP)</span>.
+            I’m a <span class="font-semibold">new programmer</span> who is passionate about
+            learning and building real-world applications that solve problems and help people.
+          </p>
+
+          <p class="text-2xl text-gray-700 leading-relaxed">
+            I have basic experience and knowledge in
+            <span class="font-semibold">software engineering</span> and
+            <span class="font-semibold">Windows Server</span> management.
+            I enjoy exploring both front-end and back-end development, and I’m always
+            motivated to improve my coding and problem-solving skills.
+          </p>
+
+          <p class="text-2xl text-gray-700 leading-relaxed">
+            My main skills include
+            <span class="font-semibold">ASP .NET Core, Java, PHP, Spring Boot, React.js,</span> and
             <span class="font-semibold">C#</span>.
-          </p>
-
-          <p class="text-lg text-gray-700 leading-relaxed">
-            I enjoy creating <span class="font-semibold">clean, responsive interfaces</span> 
-            and developing <span class="font-semibold">reliable backend systems</span>. 
-            During my internship, I worked closely with teams to plan, build, and deploy real-world projects.
-          </p>
-
-          <p class="text-lg text-gray-700 leading-relaxed">
-            I’m a <span class="font-semibold">team player</span> who values communication, learning, and problem-solving — 
-            whether it’s fixing bugs, integrating APIs, or optimizing database performance. 
-            My goal is to grow as a developer and build software that’s both functional and enjoyable to use.
+            I’m currently focusing on enhancing my full-stack development abilities
+            and preparing for future opportunities in software development.
           </p>
         </div>
       </div>

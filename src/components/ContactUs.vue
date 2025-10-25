@@ -17,7 +17,7 @@
     <div class="flex justify-center gap-8 text-4xl">
       <!-- Email -->
       <a
-        href="mailto:siengvathana1@gmail.com"
+        href="mailto:hoeunraksa012@gmail.com"
         class="text-gray-600 hover:text-red-500 transition"
         target="_blank"
       >
@@ -26,7 +26,7 @@
 
       <!-- Facebook -->
       <a
-        href="https://www.facebook.com/vathana1234"
+        href="https://www.facebook.com/hoeun.raksa.426443"
         class="text-gray-600 hover:text-blue-600 transition"
         target="_blank"
       >
@@ -35,20 +35,11 @@
 
       <!-- Telegram -->
       <a
-        href="https://t.me/VATHANA1234"
+        href="https://t.me/hoeunraksa"
         class="text-gray-600 hover:text-sky-400 transition"
         target="_blank"
       >
         <Icon icon="mdi:telegram" />
-      </a>
-
-      <!-- LinkedIn -->
-      <a
-        href="https://www.linkedin.com/in/vathana-sieng-307599350/"
-        class="text-gray-600 hover:text-blue-700 transition"
-        target="_blank"
-      >
-        <Icon icon="mdi:linkedin" />
       </a>
     </div>
   </div>

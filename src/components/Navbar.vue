@@ -7,7 +7,7 @@
   >
     <div class="flex-1 flex justify-between items-center">
       <a href="#" class="text-3xl md:text-4xl font-bold text-gray-800">
-        <span class="text-[#2DA6FF]">VATHANA</span>
+        <span class="text-[#2DA6FF]">RAKSA</span>
       </a>
     </div>
 
@@ -83,17 +83,6 @@
                 class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
               >
                 Projects
-                <span
-                  class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
-                ></span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#experiences"
-                class="group relative text-lg lg:text-xl font-semibold inline-block pb-1 leading-tight"
-              >
-                Experiences
                 <span
                   class="absolute left-0 bottom-0 h-0.5 w-0 bg-[#2DA6FF] transition-all duration-300 group-hover:w-full"
                 ></span>

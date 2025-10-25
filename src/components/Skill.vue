@@ -20,6 +20,7 @@
         icon="vscode-icons:file-type-js-official"
         name="JavaScript (ES6)"
       />
+        <SkillCard icon="vscode-icons:file-type-reactjs" name="ReactJs" />
       <SkillCard icon="vscode-icons:file-type-vue" name="Vue.js" />
       <!-- <SkillCard icon="logos:react" name="React" /> -->
       <SkillCard icon="devicon:tailwindcss" name="Tailwind CSS" />
@@ -30,6 +31,7 @@
       <SkillCard icon="logos:php" name="PHP" />
       <SkillCard icon="logos:laravel" name="Laravel" />
       <SkillCard icon="logos:spring-icon" name="Spring Boot" />
+      <SkillCard icon="devicon:java" name="Java" />
       <SkillCard icon="devicon:csharp" name="C#" />
       <SkillCard icon="simple-icons:dotnet" name="ASP.NET Core" />
      <SkillCard icon="mdi:api" name="REST API" />
@@ -37,7 +39,6 @@
       <!-- Databases -->
       <SkillCard icon="devicon:microsoftsqlserver" name="SQL Server" />
       <SkillCard icon="devicon:mysql" name="MySQL" />
-      <SkillCard icon="devicon:oracle" name="Oracle" />
 
       <!--  Tools -->
       <SkillCard icon="logos:git-icon" name="Git" />
@@ -48,6 +49,7 @@
       <!--  Design -->
       <SkillCard icon="logos:figma" name="Figma" />
       <SkillCard icon="devicon:photoshop" name="Photoshop" />
+      <SkillCard icon="logos:adobe-premiere" name="Photoshop" />
     </div>
   </section>
 </template>

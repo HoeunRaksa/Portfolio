@@ -14,9 +14,9 @@
 
         <!-- Profile image -->
         <img
-          src="../assets/image/vathana.png"
+          src="../assets/image/raksa.jpg"
           class="relative w-full h-full object-cover rounded-2xl md:mt-10 mt-6 shadow-xl"
-          alt="Sieng Vathana"
+          alt="Hoeun Raksa"
         />
       </div>
     </section>
@@ -30,16 +30,15 @@
       </h1>
 
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900">
-        I'm <span class="text-[#1da1ff]">Sieng Vathana</span>
+        I'm <span class="text-[#1da1ff]">Hoeun Raksa</span>
       </h1>
 
       <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
         <span class="font-semibold text-[#1da1ff]">Programmer</span> passionate
         about building modern web and desktop applications. Skilled in
-        <span class="font-semibold">Vue.js</span>,
+        <span class="font-semibold">ReacJs</span>,
         <span class="font-semibold">Laravel</span>,
-        <span class="font-semibold">Spring Boot</span>,
-        <span class="font-semibold">Django</span>, and
+        <span class="font-semibold">Spring Boot</span>, and
         <span class="font-semibold">C#</span>. I enjoy turning ideas into clean,
         functional, and user-friendly software.
       </p>
@@ -53,8 +52,8 @@
           About Me
         </a>
         <a
-          href="/Portfolio/SiengVathana_CV.pdf"
-          download="/Portfolio/SiengVathana_CV.pdf"
+          href="/Portfolio/HoeunRaksa_CV.pdf"
+          download="/Portfolio/HoeunRaksa_CV.pdf"
           class="border-2 border-[#1da1ff] text-[#1da1ff] hover:bg-[#1da1ff] hover:text-white px-6 py-3 rounded-xl shadow-lg text-lg font-semibold transition-transform hover:scale-105"
         >
           Download CV

@@ -1,8 +1,60 @@
 @import "tailwindcss";
-
-body {
-      font-family: "Archivo Narrow", sans-serif;
-}
 html {
   scroll-behavior: smooth;
+}
+body {
+   background: linear-gradient(135deg, #f0f4ff, #d9efff, #e0f7fa);
+
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.itemglass {
+  background: rgba(255, 255, 255, 1); /* ultra-light background */
+  backdrop-filter: blur(120px) saturate(300%); /* VERY strong blur */
+  -webkit-backdrop-filter: blur(120px) saturate(300%); /* Safari */
+  border-top: none;
+  border-right: 0.5px solid rgba(255,255,255,0.2);
+  border-bottom: 0.5px solid rgba(255,255,255,0.2);
+  border-left: 0.5px solid rgba(255,255,255,0.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  z-index: 50;
+}
+.glass:hover {
+  background: rgba(255, 255, 255, 0.25);
+} 
+.glass-hover:hover {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.toast-success {
+  background-color: rgba(72, 187, 120, 0.8); /* greenish */
+  color: white;
+}
+
+.toast-error {
+  background-color: rgba(220, 53, 69, 0.85); /* reddish */
+  color: white;
+}
+
+.toast-info {
+  background-color: rgba(23, 162, 184, 0.85); /* blueish */
+  color: white;
+}
+
+.toast-warning {
+  background-color: rgba(255, 193, 7, 0.85); /* yellowish */
+  color: black;
 }
