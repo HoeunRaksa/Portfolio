@@ -7,12 +7,10 @@
       <div
         class="relative w-4/5 max-w-[420px] md:max-w-[380px] animate-profile"
       >
-        <!-- Glow background -->
         <div
           class="absolute inset-0 rounded-full bg-gradient-to-tr from-[#1da1ff]/30 to-[#2DA6FF]/10 blur-3xl"
         ></div>
 
-        <!-- Profile image -->
         <img
           src="../assets/image/raksa.jpg"
           class="relative w-full h-full object-cover rounded-2xl md:mt-10 mt-6 shadow-xl"
@@ -26,7 +24,7 @@
       class="text-start flex flex-col items-start justify-center order-2 lg:order-1 space-y-4"
     >
       <h1 class="text-2xl md:text-3xl text-gray-700 font-medium">
-        Hello Mate <span class="animate-waving-hand">👋</span>
+        Hello <span class="animate-waving-hand">👋</span>
       </h1>
 
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900">
@@ -34,13 +32,12 @@
       </h1>
 
       <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
-        <span class="font-semibold text-[#1da1ff]">Programmer</span> passionate
-        about building modern web and desktop applications. Skilled in
-        <span class="font-semibold">ReacJs</span>,
-        <span class="font-semibold">Laravel</span>,
-        <span class="font-semibold">Spring Boot</span>, and
-        <span class="font-semibold">C#</span>. I enjoy turning ideas into clean,
-        functional, and user-friendly software.
+        <span class="font-semibold text-[#1da1ff]">Flutter Mobile Developer</span>
+        passionate about building real-world mobile applications connected to
+        backend systems. Skilled in
+        <span class="font-semibold">Flutter, Dart, Provider, Laravel REST API,</span>
+        and <span class="font-semibold">ASP.NET Core</span>.
+        I enjoy turning ideas into scalable, clean, and user-friendly applications.
       </p>
 
       <!-- Buttons -->
@@ -68,17 +65,10 @@ export default {};
 </script>
 
 <style>
-/* Floating animation for profile */
 @keyframes profileFloat {
-  0% {
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(-12px) scale(1.02);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-12px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
 }
 .animate-profile {
   animation: profileFloat 4s ease-in-out infinite;

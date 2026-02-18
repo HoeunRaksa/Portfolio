@@ -136,13 +136,13 @@ export default {
       }
     },
     handleResize() {
-      this.isLargeScreen = window.innerWidth >= 1024; // md breakpoint
+      this.isLargeScreen = window.innerWidth >= 1024;
       if (this.isLargeScreen) {
         this.isOpen = false;
       }
     },
     handleScroll() {
-      this.isScrolled = window.scrollY > 10; // Add background when scroll > 10px
+      this.isScrolled = window.scrollY > 10;
     },
   },
   mounted() {
